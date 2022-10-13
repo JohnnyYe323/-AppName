@@ -1,0 +1,65 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.fuente2 {
+    font-family: 'Homemade Apple', cursive;
+}
+
+main {
+    padding-left: 5%;
+    padding-right: 40%;
+    color: white;
+}
+
+button:hover {
+    background-color: grey;
+    color: black;
+}
+
+button {
+    border-radius: 10%;
+    padding: 1%;
+}
+
+.acceder {
+    background-color: cyan;
+}
+
+.actividades {
+    background-color: yellow;
+}
+
+.blog {
+    background-color: red;
+    color: white;
+}
+
+.sobreNosotros {
+    background-color: green;
+    color: white;
+}
+
+@media screen and (max-width: 800px) {
+    main {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    main {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    button {
+        margin-bottom: 1%;
+    }
+}
